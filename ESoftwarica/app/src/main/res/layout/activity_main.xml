@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#fafafa"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <ImageView
+        android:id="@+id/owneriq_q_1"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/softwarica"
+         />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etuserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="User Name"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:inputType="textPersonName"
+            android:layout_gravity="center"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etpwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:hint="Password"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:inputType="textPassword"
+            android:layout_gravity="center"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btncorner"
+        android:elevation="5dp"
+        android:text="Login"
+        android:clickable="true"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
